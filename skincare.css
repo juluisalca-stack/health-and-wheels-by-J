@@ -27,3 +27,10 @@ main,footer{padding-inline:20px}.brand{font-size:27px}
 .video{min-height:150px;padding:22px}.video h2{font-size:29px}.video p{font-size:17px}
 footer{margin-inline:20px;padding-inline:0}footer a{font-size:14px}
 }
+
+/* Align product scale with the site's existing collections. */
+.product-image{height:205px}.product-image img{max-height:175px;max-width:220px}
+.intro h1{font-size:clamp(36px,4.5vw,52px)}
+.products article{display:flex;flex-direction:column}.products .amazon{margin-top:auto}
+.product-origin{font-size:12px;line-height:1.5;color:#46634f;margin:-7px 0 12px}
+@media(max-width:650px){.product-image{height:180px}.product-image img{max-height:165px;max-width:200px}.intro h1{font-size:36px}.products .amazon{width:100%;margin-top:0}}
