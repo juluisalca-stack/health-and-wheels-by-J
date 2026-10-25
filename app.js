@@ -11,7 +11,7 @@ const products = [
     use: 'I use it for my car tires, footballs, and the wheels on my two-wheeler. I’ve used it for about six months.',
     pros: ['Small enough to carry in my backpack.', 'Useful for more than just my car tires.'],
     know: 'It can get pretty hot when I use it a lot. Follow the manufacturer’s instructions, including any recommended duty cycle and cool-down time.',
-    take: 'I keep carrying it because having a small inflator with me is convenient.', url: 'https://amzn.to/4xGLPDA'
+    take: 'I keep carrying it because having a small inflator with me is convenient.', url: 'https://amzn.to/4xGLPDA', reviewPage: 'tire-inflator-review.html'
   },
   {
     id: 'seat-covers', category: 'wheels', need: 'comfort', name: 'Seat covers', kicker: 'A SIMPLE INTERIOR REFRESH', tag: 'Recently purchased', image: 'seat-covers.jpg', lowRes: true,
