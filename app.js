@@ -7,7 +7,7 @@ const products = [
   {
     id: 'tire-inflator', category: 'wheels', need: 'essentials', name: 'Portable tire inflator', kicker: 'READY WHEN YOU NEED IT', tag: 'About 6 months of use', image: 'tire-inflator.jpg',
     info: 'A portable air pump for compatible tires and inflatables. Check the included adapters and operating instructions for your needs.',
-    teaser: 'I carry it in my backpack every day. The portability is the biggest plus for me.',
+    teaser: 'I carry it in my backpack every day for convenience. It can get pretty hot with heavy use.',
     use: 'I use it for my car tires, footballs, and the wheels on my two-wheeler. I’ve used it for about six months.',
     pros: ['Small enough to carry in my backpack.', 'Useful for more than just my car tires.'],
     know: 'It can get pretty hot when I use it a lot. Follow the manufacturer’s instructions, including any recommended duty cycle and cool-down time.',
