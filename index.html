@@ -38,6 +38,17 @@
 #coloring-books .island-subtitle{font-size:18px;margin:0 0 12px}
 @media(max-width:600px){.island-announcement{align-items:flex-start;flex-direction:column;gap:6px}.island-announcement a{white-space:normal}#coloring-books .island-feature{gap:18px}#coloring-books .island-feature .book-cover{width:145px}#coloring-books .island-feature h3{font-size:25px}}
 @media(max-width:400px){#coloring-books .island-feature{flex-direction:column}#coloring-books .island-feature .book-cover{width:170px;max-width:100%;align-self:center}}
+
+#coloring-books .pencil-feature{grid-column:1/-1;scroll-margin-top:110px;margin-top:2px;padding:24px 0;border-bottom:1px solid #dde3d6}
+#coloring-books .pencil-feature>h3{font-size:28px;margin-top:8px}
+#coloring-books .pencil-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:22px}
+#coloring-books .pencil-options .book-card{display:flex;flex-direction:column;gap:16px;height:100%;padding:24px;box-sizing:border-box}
+#coloring-books .pencil-options .book-cover{width:200px;max-width:100%;height:180px;object-fit:contain;align-self:center;border-radius:4px}
+#coloring-books .pencil-options h4{font-size:23px;line-height:1.25;margin:8px 0 14px}
+#coloring-books .pencil-options .button{white-space:normal;min-height:44px}
+#coloring-books .pencil-options ul{padding-left:20px;line-height:1.6}
+#coloring-books #crayola-twistables{scroll-margin-top:110px}
+@media(max-width:850px){#coloring-books .pencil-options{grid-template-columns:1fr}#coloring-books .pencil-feature>h3{font-size:25px}}
 </style>
 <link rel="stylesheet" href="navigation.css?v=20261028">
 <link rel="stylesheet" href="christmas.css">
@@ -182,36 +193,18 @@
             <p><strong>J’s note:</strong> This is our first adult coloring book. My wife and I helped review the pages, and the hummingbirds and koi are already favorites. Color a little. Explore a lot.</p>
           </div>
         </article>
-
-        <article class="book-card">
-          <img class="book-cover" src="assets/canvas-and-creatures.jpg" alt="Original Canvas &amp; Creatures cover with an elephant, giraffe, and lion" width="1000" height="1293" loading="lazy">
-          <div class="book-info"><p class="book-age">AGES 2–6 · ANIMAL COLORING BOOK</p><h3>Canvas &amp; Creatures — Animal Coloring Book for Kids</h3><p>25 cute animal coloring pages for little artists to explore.</p><a class="button primary" href="https://link.amazon/B06sWDtq8" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Canvas and Creatures on Amazon, opens in a new tab">View on Amazon ↗</a></div>
-        </article>
-        <article class="book-card">
-          <img class="book-cover" src="assets/cozy-holiday-adventures.jpg" alt="Original Cozy Holiday Adventures cover with children, a snowman, and winter animal friends" width="1000" height="1293" loading="lazy">
-          <div class="book-info"><p class="book-age">AGES 5–9 · HOLIDAY COLORING BOOK</p><h3>Cozy Holiday Adventures — Christmas Coloring Book for Kids</h3><p>Festive winter scenes and animal friends for creative holiday time.</p><a class="button primary" href="https://link.amazon/B08bb7aUm" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Cozy Holiday Adventures on Amazon, opens in a new tab">View on Amazon ↗</a></div>
-        </article>
-      </div>
-
-      <article class="book-card" id="crayola-twistables" style="margin-top:24px">
-        <img class="book-cover" src="assets/crayola-twistables-50.jpg" alt="Crayola Twistables 50-count colored pencil set in yellow and green packaging" width="602" height="450" loading="lazy" style="object-fit:contain">
-        <div class="book-info">
-          <p class="book-age">COLORING SUPPLIES · AGES 5+</p>
-          <h3>Crayola Twistables Colored Pencils — 50 Count</h3>
-          <p>A colorful companion idea for Cozy Holiday Adventures and other coloring books. Twist the barrel to advance the color—no sharpening needed.</p>
-          <p>The listing describes a 50-color set for ages 5 and up, shared here as a stocking stuffer or creative gift idea. I haven’t personally tested this set.</p>
-          <a class="button primary" href="https://link.amazon/B04Wz5J74" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Crayola Twistables 50-count colored pencils on Amazon, opens in a new tab">View on Amazon ↗</a>
-          <p class="book-disclosure">Paid link · As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. Check Amazon for current price, availability, and age guidance.</p>
-        </div>
-      </article>
-
-      <article class="book-card" id="soucolor-72-pencils" style="margin-top:24px;scroll-margin-top:110px">
+        <section class="pencil-feature" id="coloring-pencils" aria-labelledby="pencil-feature-title">
+          <p class="book-age">PENCILS FOR YOUR NEXT COLORING SESSION</p>
+          <h3 id="pencil-feature-title">Pick your pages. Choose your colors.</h3>
+          <p class="books-intro">Getting ready for Island Rhythms, or coloring together as a family? Explore these two pencil sets. Each button takes you straight to Amazon; books and pencils are sold separately.</p>
+          <div class="pencil-options">
+      <article class="book-card" id="soucolor-72-pencils">
         <img class="book-cover" src="assets/soucolor-72-pencils.jpg" alt="Soucolor 72 colored pencils with black barrels, named colors and a kraft storage box" width="1500" height="1500" loading="lazy" style="object-fit:contain">
         <div class="book-info">
           <p class="book-age">ADULT COLORING &amp; BEGINNER ART SUPPLIES</p>
-          <h3>Soucolor 72 Colored Pencils for Adult Coloring Books</h3>
-          <p>Looking for more colors for detailed coloring pages? This 72-pencil set is a supply idea for adult coloring books, beginner sketching, drawing, blending and shading.</p>
-          <p><strong>Features described in the supplied product information:</strong></p>
+          <h4>Soucolor 72 Colored Pencils for Adult Coloring Books</h4>
+          <p>A companion idea for Island Rhythms and other adult coloring books: 72 colors for experimenting with layering, blending, and shading. Also suited to beginner sketching and drawing, according to the supplied product information.</p>
+          <p><strong>Why consider this set?</strong> Features described in the supplied product information:</p>
           <ul>
             <li>72 colors with soft cores for smooth coloring and shading</li>
             <li>Pre-sharpened wooden pencils, ready to start</li>
@@ -231,6 +224,34 @@
           </details>
         </div>
       </article>
+      <article class="book-card" id="crayola-twistables">
+        <img class="book-cover" src="assets/crayola-twistables-50.jpg" alt="Crayola Twistables 50-count colored pencil set in yellow and green packaging" width="602" height="450" loading="lazy" style="object-fit:contain">
+        <div class="book-info">
+          <p class="book-age">EASY TWIST-UP COLOR · AGES 5+</p>
+          <h4>Crayola Twistables Colored Pencils — 50 Count</h4>
+          <p>A colorful companion idea for Cozy Holiday Adventures and other coloring books. Twist the barrel to advance the color—no sharpening needed.</p>
+          <p>The listing describes a 50-color set for ages 5 and up, shared here as a stocking stuffer or creative gift idea. I haven’t personally tested this set.</p>
+          <a class="button primary" href="https://link.amazon/B04Wz5J74" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Crayola Twistables 50-count colored pencils on Amazon, opens in a new tab">See Crayola 50 on Amazon ↗</a>
+          <p class="book-disclosure">Paid link · As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. Check Amazon for current price, availability, and age guidance.</p>
+        </div>
+      </article>
+          </div>
+        </section>
+
+
+        <article class="book-card">
+          <img class="book-cover" src="assets/canvas-and-creatures.jpg" alt="Original Canvas &amp; Creatures cover with an elephant, giraffe, and lion" width="1000" height="1293" loading="lazy">
+          <div class="book-info"><p class="book-age">AGES 2–6 · ANIMAL COLORING BOOK</p><h3>Canvas &amp; Creatures — Animal Coloring Book for Kids</h3><p>25 cute animal coloring pages for little artists to explore.</p><a class="button primary" href="https://link.amazon/B06sWDtq8" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Canvas and Creatures on Amazon, opens in a new tab">View on Amazon ↗</a></div>
+        </article>
+        <article class="book-card">
+          <img class="book-cover" src="assets/cozy-holiday-adventures.jpg" alt="Original Cozy Holiday Adventures cover with children, a snowman, and winter animal friends" width="1000" height="1293" loading="lazy">
+          <div class="book-info"><p class="book-age">AGES 5–9 · HOLIDAY COLORING BOOK</p><h3>Cozy Holiday Adventures — Christmas Coloring Book for Kids</h3><p>Festive winter scenes and animal friends for creative holiday time.</p><a class="button primary" href="https://link.amazon/B08bb7aUm" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Cozy Holiday Adventures on Amazon, opens in a new tab">View on Amazon ↗</a></div>
+        </article>
+      </div>
+
+
+
+
       <p class="book-disclosure">The coloring books above are J’s own books. J earns royalties from book sales. Amazon buttons open in a new tab; current prices and availability are shown on Amazon.</p>
     </section>
 
@@ -757,5 +778,6 @@
   <footer><div class="wrap footer-inner"><p>Health <span>&amp;</span> Wheels <em>by J</em></p><p>Real experience. No hype.<br><span>Better days on and off the road.</span></p><a href="#home">Back to top <span aria-hidden="true">↑</span></a></div><div class="wrap affiliate-note">Affiliate disclosure: As an Amazon Associate I earn from qualifying purchases.</div></footer>
 </body>
 </html>
+
 
 
