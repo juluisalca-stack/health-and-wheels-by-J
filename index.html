@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#245b48">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://juluisalca-stack.github.io/health-and-wheels-by-J/">
-  <meta name="description" content="Honest reviews of portable tire inflators, car detailing products, everyday wellness picks, dog care, skin care, and kids coloring books from Health &amp; Wheels by J.">
+  <meta name="description" content="Honest reviews of portable tire inflators, car detailing products, everyday wellness picks, dog care, skin care, and coloring books for kids and adults from Health &amp; Wheels by J.">
   <title>Health &amp; Wheels by J — Real experience. No hype.</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
@@ -27,6 +27,17 @@
 #coloring-books .book-disclosure{font-size:13px;color:#5c675e;margin-top:22px}
 @media(max-width:850px){#coloring-books .books-grid{grid-template-columns:1fr}}
 @media(max-width:400px){#coloring-books .book-card{gap:16px;padding:18px}#coloring-books .book-cover{width:105px}#coloring-books h3{font-size:21px}}
+
+/* Island Rhythms launch teaser: preserve the existing books and product links. */
+.island-announcement{margin-block:0 28px;padding:18px 24px;border:1px solid #dde3d6;border-radius:14px;background:#fff8e6;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.island-announcement p{margin:0;line-height:1.5}.island-announcement a{color:#245b48;font-weight:700;white-space:nowrap;min-height:44px;display:inline-flex;align-items:center}
+#coloring-books .island-feature{grid-column:1/-1;gap:28px;background:#fffaf0;scroll-margin-top:110px}
+#coloring-books .island-feature .book-cover{width:210px;max-width:38%}
+#coloring-books .island-feature h3{font-size:32px;margin-top:8px}
+#coloring-books .island-status{display:inline-block;border-radius:999px;padding:7px 13px;background:#e7efe8;color:#245b48;font-weight:700;font-size:13px;margin:8px 0}
+#coloring-books .island-subtitle{font-size:18px;margin:0 0 12px}
+@media(max-width:600px){.island-announcement{align-items:flex-start;flex-direction:column;gap:6px}.island-announcement a{white-space:normal}#coloring-books .island-feature{gap:18px}#coloring-books .island-feature .book-cover{width:145px}#coloring-books .island-feature h3{font-size:25px}}
+@media(max-width:400px){#coloring-books .island-feature{flex-direction:column}#coloring-books .island-feature .book-cover{width:170px;max-width:100%;align-self:center}}
 </style>
 <link rel="stylesheet" href="navigation.css?v=20261028">
 <link rel="stylesheet" href="christmas.css">
@@ -48,6 +59,11 @@
         <figcaption><span class="image-note">A little of J’s taste.</span><span>Life’s better when you enjoy the ride. <span aria-hidden="true">↗</span></span></figcaption>
       </figure>
     </section>
+
+    <aside class="wrap island-announcement" aria-label="New adult coloring book coming soon">
+      <p><strong>Coming soon: Island Rhythms.</strong> Meet Kaiwi’s first coloring book for adults — 50 tropical, ocean, and botanical designs.</p>
+      <a href="#island-rhythms">See the new book <span aria-hidden="true">&nbsp;↓</span></a>
+    </aside>
 
     <section class="wrap" id="christmas-gifts" aria-labelledby="christmas-gifts-title">
       <div class="gift-heading"><div><p class="eyebrow">HEALTH &amp; WHEELS BY J · HOLIDAY FINDS</p><h2 id="christmas-gifts-title">Christmas Gift Picks</h2></div><span class="gift-season">A little something for their everyday.</span></div>
@@ -152,8 +168,21 @@
     <section class="wrap" id="coloring-books" aria-labelledby="coloring-books-title">
       <p class="eyebrow">CREATED BY J</p>
       <h2 id="coloring-books-title">Coloring books &amp; supplies for kids and adults.</h2>
-      <p class="books-intro">Explore animal coloring pages for ages 2–6 and Christmas coloring adventures for ages 5–9, created for young artists and family fun.</p>
+      <p class="books-intro">Coloring for the whole family: animal pages for ages 2–6, Christmas adventures for ages 5–9, and our first adult collection, Island Rhythms, coming soon.</p>
       <div class="books-grid">
+        <article class="book-card island-feature" id="island-rhythms" aria-labelledby="island-rhythms-title">
+          <img class="book-cover" src="assets/island-rhythms-cover.jpg" alt="Island Rhythms: 50 Patterns to Color by Kaiwi, with colorful hibiscus flowers, tropical leaves, and ocean waves" width="918" height="1188" loading="lazy">
+          <div class="book-info">
+            <p class="book-age">KAIWI’S FIRST COLORING BOOK FOR ADULTS · FIRST EDITION</p>
+            <h3 id="island-rhythms-title">Island Rhythms</h3>
+            <p class="island-subtitle">50 Patterns to Color</p>
+            <p>Find your island rhythm, one color at a time. Explore hummingbirds, koi, sea turtles, tropical flowers, seashells, and flowing decorative patterns.</p>
+            <p>50 distinct black-and-white designs on large 8.5 × 11-inch pages, with blank reverse sides and small names and numbers to help you find your favorites.</p>
+            <p class="island-status">Coming soon on Amazon · In review</p>
+            <p><strong>J’s note:</strong> This is our first adult coloring book. My wife and I helped review the pages, and the hummingbirds and koi are already favorites. Color a little. Explore a lot.</p>
+          </div>
+        </article>
+
         <article class="book-card">
           <img class="book-cover" src="assets/canvas-and-creatures.jpg" alt="Original Canvas &amp; Creatures cover with an elephant, giraffe, and lion" width="1000" height="1293" loading="lazy">
           <div class="book-info"><p class="book-age">AGES 2–6 · ANIMAL COLORING BOOK</p><h3>Canvas &amp; Creatures — Animal Coloring Book for Kids</h3><p>25 cute animal coloring pages for little artists to explore.</p><a class="button primary" href="https://link.amazon/B06sWDtq8" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Canvas and Creatures on Amazon, opens in a new tab">View on Amazon ↗</a></div>
@@ -189,7 +218,7 @@
             <li>Color names and numbers help you find a shade again</li>
             <li>Colored ends make shades easier to identify</li>
           </ul>
-          <p><strong>J’s note:</strong> We’re planning adult coloring books too. I haven’t personally tested these pencils; I’m sharing them as a coloring-supply find.</p>
+          <p><strong>J’s note:</strong> Our first adult coloring book, Island Rhythms, is coming soon. I haven’t personally tested these pencils; I’m sharing them as a coloring-supply find.</p>
           <a class="button primary" href="https://link.amazon/B07GEKI4R" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Soucolor 72 colored pencils on Amazon, opens in a new tab">See the 72-color set on Amazon ↗</a>
           <p class="book-disclosure">Paid link · As an Amazon Associate I earn from qualifying purchases, at no extra cost to you. Check Amazon for the exact set, current price, availability and age guidance.</p>
           <details style="margin-top:16px">
@@ -202,7 +231,7 @@
           </details>
         </div>
       </article>
-      <p class="book-disclosure">The children’s coloring books above are J’s own books. J earns royalties from book sales. Amazon buttons open in a new tab; current prices and availability are shown on Amazon.</p>
+      <p class="book-disclosure">The coloring books above are J’s own books. J earns royalties from book sales. Amazon buttons open in a new tab; current prices and availability are shown on Amazon.</p>
     </section>
 
         <section class="wrap" id="her-skincare" aria-labelledby="her-skincare-title" style="padding-block:38px;border-top:1px solid #dde3d6"><p class="eyebrow">FROM OUR FAMILY’S COLLECTION</p><h2 id="her-skincare-title">Her skin care picks</h2><p style="max-width:650px;color:#5c675e">COSRX serum, the SIMA dermaplane razor, and Neutrogena makeup remover wipes — three products from my wife’s skin care collection.</p><a class="button primary" href="skincare.html">Explore her three picks</a></section>
@@ -728,4 +757,5 @@
   <footer><div class="wrap footer-inner"><p>Health <span>&amp;</span> Wheels <em>by J</em></p><p>Real experience. No hype.<br><span>Better days on and off the road.</span></p><a href="#home">Back to top <span aria-hidden="true">↑</span></a></div><div class="wrap affiliate-note">Affiliate disclosure: As an Amazon Associate I earn from qualifying purchases.</div></footer>
 </body>
 </html>
+
 
