@@ -12,7 +12,7 @@ const products = [
     use: 'I use it for my car tires, footballs, and the wheels on my two-wheeler. I’ve used it for about six months.',
     pros: ['Small enough to carry in my backpack.', 'Useful for more than just my car tires.'],
     know: 'It can get pretty hot when I use it a lot. Follow the manufacturer’s instructions, including any recommended duty cycle and cool-down time.',
-    take: 'I keep carrying it because having a small inflator with me is convenient.', reviewPage: 'tire-inflator-review.html'
+    take: 'I keep carrying it because having a small inflator with me is convenient.', reviewPage: 'tire-inflator-review.html', alternativeUrl: 'https://link.amazon/B0f3yOeXq'
   },
   {
     id: 'seat-covers', category: 'wheels', need: 'comfort', name: 'Seat covers', kicker: 'A SIMPLE INTERIOR REFRESH', tag: 'Recently purchased', image: 'seat-covers.jpg', lowRes: true,
@@ -122,7 +122,10 @@ function productCard(product) {
       <h4>What to know</h4><p>${p.know}</p><h4>My take</h4><p>${p.take}</p><p class="review-source">J’s own experience. Everyone is different; your experience may vary.</p>
     </div></details>
     ${p.url ? `<a class="button primary shopping-button" href="${p.url}" target="_blank" rel="sponsored noopener noreferrer" aria-label="View ${p.name} on Amazon, opens in a new tab">View on Amazon ${externalIcon}</a>
-    <p class="paid-note">Paid link · Price & details on Amazon</p>` : `<p class="paid-note">The model J reviewed is currently unavailable on Amazon.</p>`}</div></article>`;
+    <p class="paid-note">Paid link · Price & details on Amazon</p>` : `<p class="paid-note">The model J reviewed is currently unavailable on Amazon.</p>`}
+    ${p.alternativeUrl ? `<h4>OlarHike cordless tire inflator</h4><p>This is a separate model that J hasn’t personally tested. The listing shows a digital pressure gauge, automatic shutoff, and a built-in light.</p>
+    <a class="button primary shopping-button" href="${p.alternativeUrl}" target="_blank" rel="sponsored noopener noreferrer">View OlarHike on Amazon ${externalIcon}</a><p class="paid-note">Paid link · Price &amp; details on Amazon</p>` : ''}
+    </div></article>`;
 }
 
 function renderProducts() {
