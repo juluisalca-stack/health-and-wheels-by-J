@@ -21,7 +21,7 @@
 #coloring-books .printable-shop p{margin:0;max-width:680px;line-height:1.6}
 #coloring-books .printable-shop .button{flex-shrink:0;white-space:normal;text-align:center;min-height:48px}
 @media(max-width:760px){#coloring-books .printable-shop{flex-direction:column;align-items:flex-start;gap:18px}#coloring-books .printable-shop .button{max-width:100%;box-sizing:border-box}}
-#coloring-books .books-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:28px}
+#coloring-books .books-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:24px;margin-top:28px}
 #coloring-books .book-card{display:flex;align-items:flex-start;gap:22px;padding:24px;border:1px solid #dde3d6;border-radius:18px;background:#fffdf8;min-width:0}
 #coloring-books .book-cover{display:block;width:140px;max-width:40%;height:auto;flex-shrink:0;border-radius:6px}
 #coloring-books .book-info{min-width:0}
@@ -29,7 +29,6 @@
 #coloring-books .book-info p{line-height:1.6}
 #coloring-books .book-age{color:#245b48;font-size:13px;font-weight:700}
 #coloring-books .book-disclosure{font-size:13px;color:#5c675e;margin-top:22px}
-@media(max-width:850px){#coloring-books .books-grid{grid-template-columns:1fr}}
 @media(max-width:400px){#coloring-books .book-card{gap:16px;padding:18px}#coloring-books .book-cover{width:105px}#coloring-books h3{font-size:21px}}
 
 /* Island Rhythms launch teaser: preserve the existing books and product links. */
@@ -244,6 +243,14 @@
             <p><strong>J’s note:</strong> This is our first adult coloring book. My wife and I helped review the pages, and the hummingbirds and koi are already favorites. Color a little. Explore a lot.</p>
           </div>
         </article>
+        <article class="book-card island-feature">
+          <img class="book-cover" src="assets/canvas-and-creatures.jpg" alt="Original Canvas &amp; Creatures cover with an elephant, giraffe, and lion" width="1000" height="1293" loading="lazy">
+          <div class="book-info"><p class="book-age">AGES 2–6 · ANIMAL COLORING BOOK</p><h3>Canvas &amp; Creatures — Animal Coloring Book for Kids</h3><p>25 cute animal coloring pages for little artists to explore.</p><a class="button primary" href="https://link.amazon/B06sWDtq8" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Canvas and Creatures on Amazon, opens in a new tab">View on Amazon ↗</a></div>
+        </article>
+        <article class="book-card island-feature">
+          <img class="book-cover" src="assets/cozy-holiday-adventures.jpg" alt="Original Cozy Holiday Adventures cover with children, a snowman, and winter animal friends" width="1000" height="1293" loading="lazy">
+          <div class="book-info"><p class="book-age">AGES 5–9 · HOLIDAY COLORING BOOK</p><h3>Cozy Holiday Adventures — Christmas Coloring Book for Kids</h3><p>Festive winter scenes and animal friends for creative holiday time.</p><a class="button primary" href="https://link.amazon/B08bb7aUm" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Cozy Holiday Adventures on Amazon, opens in a new tab">View on Amazon ↗</a></div>
+        </article>
         <section class="pencil-feature" id="coloring-pencils" aria-labelledby="pencil-feature-title">
           <p class="book-age">PENCILS FOR YOUR NEXT COLORING SESSION</p>
           <h3 id="pencil-feature-title">Pick your pages. Choose your colors.</h3>
@@ -288,16 +295,6 @@
       </article>
           </div>
         </section>
-
-
-        <article class="book-card">
-          <img class="book-cover" src="assets/canvas-and-creatures.jpg" alt="Original Canvas &amp; Creatures cover with an elephant, giraffe, and lion" width="1000" height="1293" loading="lazy">
-          <div class="book-info"><p class="book-age">AGES 2–6 · ANIMAL COLORING BOOK</p><h3>Canvas &amp; Creatures — Animal Coloring Book for Kids</h3><p>25 cute animal coloring pages for little artists to explore.</p><a class="button primary" href="https://link.amazon/B06sWDtq8" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Canvas and Creatures on Amazon, opens in a new tab">View on Amazon ↗</a></div>
-        </article>
-        <article class="book-card">
-          <img class="book-cover" src="assets/cozy-holiday-adventures.jpg" alt="Original Cozy Holiday Adventures cover with children, a snowman, and winter animal friends" width="1000" height="1293" loading="lazy">
-          <div class="book-info"><p class="book-age">AGES 5–9 · HOLIDAY COLORING BOOK</p><h3>Cozy Holiday Adventures — Christmas Coloring Book for Kids</h3><p>Festive winter scenes and animal friends for creative holiday time.</p><a class="button primary" href="https://link.amazon/B08bb7aUm" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Cozy Holiday Adventures on Amazon, opens in a new tab">View on Amazon ↗</a></div>
-        </article>
       </div>
 
 
